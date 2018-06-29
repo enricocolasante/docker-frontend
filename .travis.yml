@@ -1,9 +1,9 @@
 sudo: required
 env:
   global:
-    - secure: ghh9HZ8BsJRu3dnQI1VuroSb4S2EtMrXdbfKT2spDavJAiTQnyP7fPYtmSASjFLI+RnNKA3SLueWCIL7VPcFbNol8gZrpp13kTBss8+5he1gupON3kCeLFmS36+QfOvWjoc/hd8kMUi3/6ciKMTq1cgBdrkdkscxPdzqO6h8XV7uTr03uNYzgo1R5P/c$
+    - secure=ASD6ID5lnkNPoJkPFmZeRflA/I3C+DJw+4MY95bnlK2fZMYW1wEr9qcBzBwh8uYP0WrbbF0Z8LnUJq3ouG9M6n9SAh09JHKOYm5UVQFTubOyWJ+XfInxPkSKhdQWvY+SpRXkebgkROl08p+MqEPd9WLYZ+NktI+ydo2RdaGH1ZCvbjic//RdD10wn7fC/GjoEQ9ssXfLzslzTcpqkCsiuIzslmigzG1LnuxEYv8kvaSdjwSt0vgVPHJHOmkqRh+eRZlPLT/hXjZV19vOLMgBU18zupZOVO+FmMbYMbDTt3TR82C7tifsM5ORS0vjJ8uIRfs4NUZuFOayV2aOdZcQGUJgwcHjHJNKzFPjlF4zb9EX2oL6vUWeofxwH45duwqvxHx4TyPUElfAIVZ5kHcKEXEXTVqjHEJTX006z6vbHBnmZd4e3bhuOpVCSf6hzbN3eM8Vf5IYbDKh1mPh/78VuHFSYMj17WJp/f4wGiCXWvPtNQ97Eh0JtF3fHh49/9IRcoIAyvKjY3FPbQ21Z637bNj0rRgF0oSNfAceUc3W/JC9inAowfbj9jKGLI8ImWXvZGV/mz4vo+NrvHmvURD/Vf0k8Rsu6TKVgm/GXE5KMaGQ4onG9Tge/VHnPcg8PMNXJ98zDiftAkZak/vg4SwWJ1CQLiC1wwHJVqDkTjUQrBc=
     - DOCKER_IMAGE=imduffy15/docker-frontend
-    - DOCKER_TAG=0.0.2
+    - DOCKER_TAG=0.0.1
 services:
   - docker
 script:
