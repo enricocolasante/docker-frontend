@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:10-jessie
 
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
