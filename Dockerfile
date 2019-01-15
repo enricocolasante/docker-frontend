@@ -120,3 +120,9 @@ RUN apk add --no-cache \
             libstdc++ \
             linux-headers \
             make 
+
+
+RUN echo '[http]\n\
+sslverify = false\n'\
+> $HOME/.gitconfig
+
